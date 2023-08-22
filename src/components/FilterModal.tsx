@@ -67,7 +67,7 @@ export const FilterModal: React.FC<FilterModalProps> = ({ isFilterOpen, setIsFil
     let newSelected = selectedModels;
 
     if (isChecked) newSelected = [...selectedModels, v];
-    else newSelected = selectedModels.filter((b) => b !== v);
+    else newSelected = selectedModels.filter((m) => m !== v);
 
     setSelectedModels(newSelected);
   };

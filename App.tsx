@@ -1,7 +1,6 @@
 import 'react-native-gesture-handler';
 import './src/utils/ignore';
-import { useCallback, useEffect } from 'react';
-import { LogBox } from 'react-native';
+import { useCallback } from 'react';
 import { NativeBaseProvider, Box } from 'native-base';
 import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';

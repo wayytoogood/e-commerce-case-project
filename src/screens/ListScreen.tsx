@@ -163,6 +163,7 @@ export const ListScreen: React.FC<ProductStackScreenProps<'List'>> = ({ navigati
               onPress={() => {
                 setIsFilterOpen(true);
                 setSearchText('');
+                setCurrProducts(totalProducts);
               }}
               size="md"
               colorScheme="lightBlue"
