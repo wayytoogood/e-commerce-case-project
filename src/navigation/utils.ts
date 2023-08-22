@@ -6,7 +6,7 @@ export const headerOptions = {
   headerTintColor: '#fff',
   headerTitleStyle: {
     fontFamily: 'Montserrat-ExtraBold',
-    // fontSize: 24,
+    fontSize: 22,
   },
   headerStatusBarHeight: 0,
 };
